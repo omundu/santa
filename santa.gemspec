@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Santa::VERSION
   spec.authors       = ["Mwaki Magotswi"]
   spec.email         = ["magotswi@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
+  spec.description   = %q{Easy gifting amongst friends}
   spec.summary       = %q{A Simple gem to generate Secret Santa allocations}
   spec.homepage      = ""
   spec.license       = "MIT"
