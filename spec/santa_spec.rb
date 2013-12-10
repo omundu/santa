@@ -1,8 +1,6 @@
 require 'spec_helper'
 
 describe Santa::Base do
-  it "returns a purpose" do
-    Santa::Base.purpose.should eql("To make it simple for a group of friends or a find quickly create (hopefully) stress free Secret Santa assignments")
   
   describe '#new' do
     
@@ -23,6 +21,20 @@ describe Santa::Base do
         expect(Santa::Base.new(1, 2, 3, 4).participants).to eql([1, 2, 3, 4])
       end
       
+      it 'correctly initializes single array inputs' do
+        pending "Need to decide how I want to handle arrays"
+        expect(Santa::Base.new(['a']).participants).to eql(['a'])
+      end
+      
+      it 'correctly initializes multi array inputs' do
+        pending "Need to decide how I want to handle arrays"
+        expect(Santa::Base.new(['a', 'b', 'c', 'd']).participants).to eql(['a', 'b', 'c', 'd'])
+      end
+      
+      it 'correctly initializes hash inputs' do
+        pending "Need to decide how I want to handle hashes"
+        expect(Santa::Base.new({'a' => 1, 'b' => 2, 'c' => 3}).participants).to eql([['a', 1], ['b', 2], ['c', 3]])
+      end
     end
     
   end
