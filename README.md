@@ -1,6 +1,6 @@
 # Santa
 
-TODO: Write a gem description
+A simple fun gem to create Secret Santa allocations. Created soley for the purpose of procastinating.
 
 ## Installation
 
