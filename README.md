@@ -1,4 +1,5 @@
 # Santa
+[![Build Status](https://travis-ci.org/omundu/santa.png?branch=master)](https://travis-ci.org/omundu/santa)
 
 A simple fun gem to create Secret Santa allocations. Created soley for the purpose of procastinating.
 
