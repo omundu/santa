@@ -39,3 +39,7 @@ describe Santa::Base do
     
   end
 end
+
+describe Santa::SimpleList do
+  it { Santa::SimpleList.should < Santa::Base }
+end
